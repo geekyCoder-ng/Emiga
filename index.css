@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div, aside, section, footer, nav{
+    display: block;
+}
+#container{
+    background: rgba(212, 248, 212, 0.945);
+    color: rgb(252, 250, 251);
+}
+#quick_contact{
+    float: left;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 100;
+    background: rgb(48, 47, 47);
+    color: rgba(255, 255, 255, 0.678);
+    text-align: left;
+}
+#quick_contact #quickie{
+    float: left;
+    margin-left: 20px;
+}
+#quick_contact #search{
+    float: right;
+}
+#quick_contact #search form{
+    margin: 6px 30px 2px 0px;
+}
+#search_box{
+    margin-right: 5px;
+    box-shadow: 0 0 8px rgb(129, 241, 129);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    height: 20px;
+    width: 200px;
+    background: rgba(242, 250, 242, 0.808);
+}
+input[type=text]{
+    padding: 0px 10px 0px 10px;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+}
+#quick_contact p {
+    margin: 5px 0px;
+    font-style: italic;
+}
+#quick_contact p .admin_info{
+    width: 25px;
+    height: 20px;
+}
+#top_header{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background: rgb(9, 95, 29);
+    margin-top: 40px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 3px 5px black;
+}
+#logo{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin:10px 0px 0px 10px;
+    background: white;
+}
+#title{
+    float: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#top_nav{
+    float: right;
+    width: 50%;
+    z-index: 10;
+}
+#menu_icon{
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(emigaimages/.png) center;
+}
+#top_nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 8px 8px 12px 8px;
+    
+}
+#top_nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#top_nav ul li a:hover{
+    color: rgb(233, 248, 191);
+    font-size: 25px;
+}
+#clear{
+    clear: both;
+    height: 110px;
+}
+#wrapper{
+    width: 90%;
+    float: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.918);
+    box-shadow: 0px 0px 15px black;
+}
+#sliding{
+    width: 100%;
+    height: auto;
+    float: center;
+    background: rgb(248, 180, 180);
+}
+.slide-wrap{
+    width: 100%;
+    height: auto;
+    background: rgb(248, 180, 180);
+}
+#sliding .slider{
+    width: 100%;
+}
+#sliding .slider .slider3 img{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px black;
+}
+.slider .bx-wrapper .bx-controls-direction a{
+    display: none;
+}
+#main_body{
+    width: 60%;
+    float: left;
+    margin-right: 1%;
+    margin-top:1%;
+    box-shadow: 0 0 10px rgba(19, 18, 18, 0.322);
+    /*outline: 2px outset rgba(0, 0, 0, 0.575);*/
+}
+#main_body_header{
+    width: 100%;
+    float: left;
+    height: 80px;
+    background: rgb(9, 95, 29);
+    /*background: url(emigaimages/img1.jpg) no-repeat;
+    background-size: cover;*/
+}
+#title_header{
+    width: 230px;
+    height: 40px;
+    float: left;
+    border: 2px dotted rgb(255, 255, 255);
+    margin: 15px 0px 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+#side_wrapper{
+    width: 38%;
+    height: 980px;
+    float: right;
+    margin-left: 1%;
+    margin-top:1%;
+    box-shadow: 0 0 10px rgba(19, 18, 18, 0.322);
+}
+.one_fourth_icon{
+    float: left;
+    margin: 4px 0px 2px 16px;
+}
+#one_fourth_title{
+    font-size: 26px;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px black;
+}
+.icon-wrap{
+	margin: 0 auto;
+	width: 70%;
+	height: 40%;
+	border-radius: 155%;
+	text-align: center;
+    background-color: rgb(26, 112, 26);
+    border: 3px solid rgba(255, 255, 255, 0.719);
+    box-shadow: 0 0 10px black;
+}
+.icon-wrap img{
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	margin: 70px;
+}
+.one_fourth_headers{
+    width: 170px;
+    height: 30px;
+    background: rgba(15, 102, 37, 0.918);
+    margin: 5px 0 5px 60px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px black;
+}
+.one_fourth_headers h3{
+    padding-top: 3px;
+    color: white;
+}
+.one_fourth{
+    color: green;
+    /*text-shadow: 0 0 1px black;*/
+    width: 44%;
+    float: left;
+    height: auto;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#one_one{
+    clear: left;
+    float: left;
+    width: 100%;
+    margin: 10px auto 0;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+}
+#one_one .one_one_third h2{
+    color: green;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-shadow: 0 2px 2px black;
+}
+#one_one .one_one_third{
+    width: 33.33333%;
+	float: left;
+	text-align: justify;
+	margin: 5% 0;
+}
+.produce{
+    width: 100%;
+    height: 25%;
+    margin:10px 0 10px; 
+}
+.icons{
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px black;
+}
+#about{
+    float: right;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+h3{
+    color: rgba(216, 247, 218, 0.829);
+    margin: 5px 0px 10px;
+    text-align: center;
+}
+#about_top{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background: rgb(9, 95, 29);
+}
+#about_title{
+    width: 180px;
+    height: 40px;
+    float: left;
+    border: 2px dotted rgb(255, 255, 255);
+    margin: 15px 0px 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+#about_title h2{
+    margin-top: 5px;
+    font-size: 26px;
+}
+#about_body{
+    float: right;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid green;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+#page_footer{
+    clear:both;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: rgba(8, 8, 8, 0.856);
+    color: rgba(255, 255, 255, 0.568);
+}
+#one_address, #one_social, #one_links{
+	width: 33.33333%;
+	float: left;
+	text-align: center;
+	padding-top: 1%;
+    padding-bottom: 1%;
+}
+#page_footer h4{
+	color:rgba(255, 255, 255, 0.774);
+	font-size: 24px;
+	font-weight: bolder;
+    margin-bottom: 3%;
+}
+#one_social ul li img{
+	width: 30px;
+	height: auto;
+}
+#one_social ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 3%;
+}
+#one_social ul li a{
+	text-decoration: none;
+}
+#one_links ul li{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+    margin-left: 36%;
+}
+#one_links ul li a{
+    text-decoration: none;
+	color:rgba(255, 255, 255, 0.726);
+}
+#one_links ul li a:hover{
+    color: rgb(233, 248, 191); 
+    font-size: 23px;
+}
+#one_links .current{
+    text-decoration: underline;
+    color: rgb(233, 248, 191); 
+}
+#real_footer{
+    clear: left;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.664);
+    padding:10px 0px 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.61); 
+    background: rgb(0, 0, 0);
+}
